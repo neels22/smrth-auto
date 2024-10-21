@@ -5,7 +5,7 @@ export function AppBar() {
 
 
     return(
-        <div className="flex justify-between">
+        <div className="flex justify-between p-3 m-3 bg-slate-300">
 
             <div>
 
@@ -13,7 +13,7 @@ export function AppBar() {
 
             </div>
 
-            <div>
+            <div className="flex justify-between">
 
                 <p>Home</p>
                 <p>Address</p>
